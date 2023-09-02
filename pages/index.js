@@ -18,13 +18,13 @@ export default function Home( ) {
         </p>
       </section>
       <section>
-        <li className={utilStyles.listItem} key={id}>
+        {/* <li className={utilStyles.listItem} key={id}>
           <Link href={`/posts/${id}`}>{title}</Link>
           <br />
           <small className={utilStyles.lightText}>
           <Date dateString={date} />
           </small>
-        </li>
+        </li> */}
       </section>
     </Layout>
     
